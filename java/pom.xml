@@ -6,7 +6,7 @@
 
   <groupId>com.logicalclocks</groupId>
   <artifactId>service-discovery-client</artifactId>
-  <version>0.5-SNAPSHOT</version>
+  <version>0.6-SNAPSHOT</version>
 
   <properties>
     <shaded.dependency.prefix>com.logicalclocks.shaded</shaded.dependency.prefix>
@@ -16,7 +16,7 @@
     <dependency>
       <groupId>com.orbitz.consul</groupId>
       <artifactId>consul-client</artifactId>
-      <version>1.4.0</version>
+      <version>1.5.3</version>
       <exclusions>
         <exclusion>
           <groupId>com.google.code.findbugs</groupId>
